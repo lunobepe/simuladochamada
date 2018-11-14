@@ -38,12 +38,13 @@ public class Main2Activity extends AppCompatActivity {
 
                     Toast.makeText(getApplicationContext(), "Dados salvos", Toast.LENGTH_LONG).show();
 
-                    Intent intent = new Intent(Main2Activity.this, MainActivity.class);
+                    Intent intent = new Intent(Main2Activity.this, Main3Activity.class);
                     startActivity(intent);
                     finish();
                 } else {
                     Toast.makeText(getApplicationContext(), "As senhas não conferem", Toast.LENGTH_LONG).show();
                 }
-        }};
+            }
+        });
     }
 }
